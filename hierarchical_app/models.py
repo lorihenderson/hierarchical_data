@@ -1,10 +1,6 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser
 
 from mptt.models import MPTTModel, TreeForeignKey
-
-class MyUser(AbstractUser):
-    pass
 
 
 class Tree(MPTTModel):

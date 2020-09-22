@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from hierarchical_app import views
 
 urlpatterns = [
+    path('', views.index_view, name="homepage"),
+    path('tree/<int:tree_id>/', views.tree_detail),
+    path('login/', views.login_view),
+    path('logout/', views.logout_view),
+    path('addtree/', views.add_tree_view),
     path('admin/', admin.site.urls),
 ]
