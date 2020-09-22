@@ -11,7 +11,7 @@ This project uses Modified Preorder Tree Traversal or MPTT.  The goal of this as
 
 
 
-
+#### Resources
 ```
 Got help from Matt:
 https://stackoverflow.com/questions/49711705/typeerror-mediadefiningclass-object-is-not-iterable
